@@ -15,7 +15,7 @@ export default function Footer() {
           <a href={GUMROAD_URL} target="_blank" rel="noopener noreferrer" className="hover:text-white transition-colors">
             Buy — $49
           </a>
-          <a href="https://github.com" target="_blank" rel="noopener noreferrer" className="hover:text-white transition-colors">
+          <a href="https://github.com/agentix-ai-org" target="_blank" rel="noopener noreferrer" className="hover:text-white transition-colors">
             GitHub
           </a>
           <a href="https://docs.anthropic.com/en/docs/claude-code" target="_blank" rel="noopener noreferrer" className="hover:text-white transition-colors">
