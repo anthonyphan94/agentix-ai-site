@@ -1,4 +1,4 @@
-export const GUMROAD_URL = "https://YOUR_GUMROAD_URL"; // Replace with your Gumroad link
+export const GUMROAD_URL = "https://baoanthony.gumroad.com/l/avgegz";
 
 export const featuredModules = [
   {
