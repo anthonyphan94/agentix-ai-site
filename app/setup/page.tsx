@@ -21,13 +21,13 @@ const steps = [
     number: "02",
     title: "Create a personal access token",
     description:
-      "You need a GitHub token so the CLI can download modules from the private repo. Create a fine-grained token with these settings:",
+      "You need a GitHub token so the CLI can download modules from the private repo. Go to the link below, or navigate manually: GitHub \u2192 Settings \u2192 Developer settings (bottom of sidebar) \u2192 Personal access tokens \u2192 Fine-grained tokens.",
     bullets: [
-      "Go to github.com/settings/tokens?type=beta",
+      "Click Generate new token",
       "Resource owner: agentix-ai-org",
       "Repository access: Only select repositories \u2192 agentix-ai",
       "Permissions: Contents \u2192 Read-only",
-      "Click Generate token and copy it",
+      "Click Generate token and copy it immediately \u2014 GitHub only shows it once",
     ],
     code: null,
     link: {
