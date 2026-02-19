@@ -45,9 +45,9 @@ const steps = [
   {
     number: "04",
     title: "Authenticate",
-    description: "Log in with the token you created in step 2:",
+    description: "Log in with the token you created in step 2. Run the command below, then paste your token when prompted:",
     code: "agentix-ai auth login",
-    note: "Paste your token when prompted. It\u2019s saved locally at ~/.agentix-ai/config.json",
+    note: "You can also pass it directly: agentix-ai auth login YOUR_TOKEN_HERE \u2014 your token is saved locally at ~/.agentix-ai/config.json",
   },
   {
     number: "05",
