@@ -48,7 +48,7 @@ function Terminal() {
 
 export default function Hero() {
   return (
-    <section className="pt-32 pb-20 px-6">
+    <section className="pt-32 pb-10 px-6">
       <div className="mx-auto max-w-4xl text-center">
         <div className="inline-flex items-center gap-2 bg-[#00ff41]/10 border border-[#00ff41]/20 text-[#00ff41] text-xs font-medium px-3 py-1.5 rounded-full mb-8">
           <span className="w-1.5 h-1.5 rounded-full bg-[#00ff41] animate-pulse" />

@@ -1,6 +1,6 @@
 export default function PainPoints() {
   return (
-    <section className="py-20 px-6">
+    <section className="pt-10 pb-20 px-6">
       <div className="mx-auto max-w-3xl">
         <p className="text-center text-[#52525b] text-sm font-medium uppercase tracking-widest mb-12">
           The reality no one talks about
