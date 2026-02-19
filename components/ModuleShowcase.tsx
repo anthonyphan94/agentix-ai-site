@@ -6,10 +6,10 @@ export default function ModuleShowcase() {
       <div className="mx-auto max-w-6xl">
         <div className="text-center mb-16">
           <h2 className="text-3xl md:text-4xl font-bold text-white mb-4">
-            Built for every part of the stack
+            Specialists for everything you build
           </h2>
           <p className="text-[#a1a1aa] max-w-xl mx-auto">
-            From languages to infrastructure, security to AI — specialists for every domain, installed only when you need them.
+            Python, DevOps, security, AI/ML — whatever your project demands, there&apos;s a specialist agent ready to go. Install only what you need, nothing you don&apos;t.
           </p>
         </div>
 

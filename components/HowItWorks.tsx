@@ -1,21 +1,21 @@
 const steps = [
   {
     step: "01",
-    title: "Install the CLI",
-    description: "One global install gives you access to the full module registry.",
+    title: "Install once",
+    description: "One command. No config files, no setup wizard, no YouTube tutorial needed.",
     code: "npm install -g agentix-ai",
   },
   {
     step: "02",
-    title: "Browse & discover",
-    description: "Explore 73 modules grouped by category — languages, infrastructure, security, AI, and more.",
-    code: "agentix-ai list",
+    title: "Pick your specialists",
+    description: "Browse 73 modules by domain. Python, security, DevOps, AI — grab only what your project needs.",
+    code: "agentix-ai install python_development",
   },
   {
     step: "03",
-    title: "Activate in Claude Code",
-    description: "Installed modules load their agents, commands, and skills. Everything else stays dormant.",
-    code: "agentix-ai install backend_development",
+    title: "Start building faster",
+    description: "Open Claude Code and your specialists are already loaded. No prompts to write. Just build.",
+    code: "claude",
   },
 ];
 
@@ -25,10 +25,10 @@ export default function HowItWorks() {
       <div className="mx-auto max-w-6xl">
         <div className="text-center mb-16">
           <h2 className="text-3xl md:text-4xl font-bold text-white mb-4">
-            Up and running in minutes
+            Three commands. That&apos;s it.
           </h2>
           <p className="text-[#a1a1aa] max-w-xl mx-auto">
-            No configuration files. No system prompts to write. Install a module and the right specialists appear in Claude Code automatically.
+            No configuration files. No learning curve. Install, pick your modules, and your AI specialists are ready before your coffee gets cold.
           </p>
         </div>
 

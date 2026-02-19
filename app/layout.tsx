@@ -5,18 +5,18 @@ import "./globals.css";
 const shareTechMono = Share_Tech_Mono({ weight: "400", variable: "--font-share-tech-mono", subsets: ["latin"] });
 
 export const metadata: Metadata = {
-  title: "Agentix-AI — Specialist Agents for Claude Code",
-  description: "73 domain-specialist modules for Claude Code. Install only what you need. Agents, skills, and orchestration workflows for AI-powered development.",
-  keywords: ["claude code", "ai agents", "developer tools", "anthropic", "specialist agents"],
+  title: "Agentix-AI — Ship Faster with AI Specialist Agents for Claude Code",
+  description: "73 plug-and-play AI agent modules for Claude Code. Stop losing clients to faster developers. Get specialist agents for Python, DevOps, security, AI/ML and more — $49 one-time.",
+  keywords: ["claude code", "ai agents", "developer tools", "anthropic", "specialist agents", "freelance developer tools", "ai coding assistant", "claude code modules"],
   openGraph: {
-    title: "Agentix-AI — Specialist Agents for Claude Code",
-    description: "73 domain-specialist modules for Claude Code. Install only what you need.",
+    title: "Agentix-AI — Ship Faster with AI Specialist Agents",
+    description: "73 plug-and-play AI agent modules for Claude Code. Stop losing clients to faster developers. $49 one-time.",
     type: "website",
   },
   twitter: {
     card: "summary_large_image",
-    title: "Agentix-AI — Specialist Agents for Claude Code",
-    description: "73 domain-specialist modules for Claude Code. Install only what you need.",
+    title: "Agentix-AI — Ship Faster with AI Specialist Agents",
+    description: "73 plug-and-play AI agent modules for Claude Code. Stop losing clients to faster developers. $49 one-time.",
   },
 };
 

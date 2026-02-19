@@ -22,7 +22,7 @@ export default function Navbar() {
           rel="noopener noreferrer"
           className="bg-[#00ff41] hover:bg-[#00cc33] text-black text-sm font-medium px-4 py-2 rounded-lg transition-colors"
         >
-          Get Access — $49
+          Get Your Edge — $49
         </a>
       </div>
     </nav>

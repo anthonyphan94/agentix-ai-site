@@ -52,17 +52,18 @@ export default function Hero() {
       <div className="mx-auto max-w-4xl text-center">
         <div className="inline-flex items-center gap-2 bg-[#00ff41]/10 border border-[#00ff41]/20 text-[#00ff41] text-xs font-medium px-3 py-1.5 rounded-full mb-8">
           <span className="w-1.5 h-1.5 rounded-full bg-[#00ff41] animate-pulse" />
-          Built for Claude Code
+          For Developers Who Refuse to Fall Behind
         </div>
 
-        <h1 className="text-5xl md:text-6xl font-bold text-white tracking-tight leading-tight mb-6">
-          Your AI Development Team{" "}
-          <span className="text-[#00ff41]">for Claude Code</span>
+        <h1 className="text-4xl md:text-6xl font-bold text-white tracking-tight leading-tight mb-6">
+          While You Code Everything by Hand,{" "}
+          <span className="text-[#00ff41]">Your Competition Uses AI Agents</span>
         </h1>
 
         <p className="text-lg text-[#a1a1aa] max-w-2xl mx-auto mb-10 leading-relaxed">
-          73 domain-specialist modules — agents, skills, and orchestration workflows.
-          Install only what your project needs. Zero bloat, maximum precision.
+          Every hour you spend on boilerplate, debugging patterns you&apos;ve seen before,
+          or rebuilding the same project structure — that&apos;s an hour a competitor
+          with AI specialists is using to land their next client.
         </p>
 
         <div className="flex flex-col sm:flex-row items-center justify-center gap-4 mb-16">
@@ -72,20 +73,20 @@ export default function Hero() {
             rel="noopener noreferrer"
             className="bg-[#00ff41] hover:bg-[#00cc33] text-black font-semibold px-8 py-3.5 rounded-xl transition-colors text-base w-full sm:w-auto text-center"
           >
-            Get Access — $49
+            Get Your Edge — $49
           </a>
           <a
             href="#modules"
             className="border border-[#333] hover:border-[#444] text-[#a1a1aa] hover:text-white font-medium px-8 py-3.5 rounded-xl transition-colors text-base w-full sm:w-auto text-center"
           >
-            Browse Modules →
+            See What You&apos;re Missing →
           </a>
         </div>
 
         <Terminal />
 
         <p className="mt-6 text-xs text-[#52525b]">
-          One-time payment · Lifetime access · Instant GitHub access
+          One payment. Lifetime access. 30-day money-back guarantee.
         </p>
       </div>
     </section>

@@ -3,28 +3,24 @@ import { useState } from "react";
 
 const faqs = [
   {
-    q: "What is Claude Code?",
-    a: "Claude Code is Anthropic's official CLI for Claude. It lets you run Claude as an AI coding assistant in your terminal, with access to your codebase. Agentix-AI extends it with specialist agents and workflows.",
+    q: "Is this just free repos repackaged?",
+    a: "No. Every module is custom-built — original agent definitions, skill architectures, and orchestration workflows designed specifically for Claude Code. This isn\u2019t a curated list of links. It\u2019s 73 production-ready modules you can\u2019t find anywhere else.",
   },
   {
-    q: "Do I need a Claude Pro subscription?",
-    a: "You need access to Claude Code, which requires a Claude account. A Claude Pro or Max plan is recommended for heavy use. Agentix-AI itself is a one-time $49 purchase on top of your existing Claude setup.",
+    q: "Will I be able to use this if I\u2019m still learning?",
+    a: "That\u2019s exactly who benefits most. Each module comes with specialist agents that guide you through production patterns — testing, security, deployment — as you build. It\u2019s like pairing with a senior dev on every project.",
   },
   {
-    q: "How do I install after purchasing?",
-    a: "After payment you'll receive a GitHub invite to the private repo at your purchase email. Accept the invite, then run: npm install -g agentix-ai followed by agentix-ai install <module-name> for the modules you want.",
+    q: "Why should I pay when there are free alternatives?",
+    a: "Free prompts give you generic advice. Agentix-AI gives you structured specialist agents with domain knowledge, progressive skill loading, and multi-agent orchestration. The difference is like reading a blog post vs. hiring a team. One saves you minutes, the other saves you weeks.",
   },
   {
-    q: "Can I install specific modules or do I get everything?",
-    a: "You install exactly what you need. Run agentix-ai list to browse all 73 modules, then agentix-ai install python_development to add just that module. Use agentix-ai install --all to get everything at once.",
+    q: "Is $49 actually worth it?",
+    a: "If you bill $30/hr and save just 2 hours in your first week, you\u2019ve made your money back. Most users report saving 10+ hours in the first week alone. That\u2019s a 6x return before day 7.",
   },
   {
-    q: "Does this work with any project?",
-    a: "Yes. Agentix-AI modules load into your Claude Code session — they work with any codebase in any language. The Python module gives you Python specialists; install a different module for a different stack.",
-  },
-  {
-    q: "What happens when new modules are added?",
-    a: "Your GitHub access persists. When new modules are added to the repo, run git pull followed by npm install to get the updates. Your $49 covers all future additions.",
+    q: "What if it doesn\u2019t work for me?",
+    a: "You have 30 days to try everything. If Agentix-AI doesn\u2019t save you time, email us and get a full refund. No questions asked.",
   },
 ];
 
@@ -35,7 +31,7 @@ export default function FAQ() {
     <section className="py-20 px-6">
       <div className="mx-auto max-w-2xl">
         <h2 className="text-3xl font-bold text-white text-center mb-12">
-          Frequently asked questions
+          Still on the fence?
         </h2>
         <div className="space-y-2">
           {faqs.map((faq, i) => (

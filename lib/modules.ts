@@ -44,10 +44,10 @@ export const featuredModules = [
 ];
 
 export const stats = [
-  { value: "73", label: "Modules" },
-  { value: "100+", label: "AI Specialists" },
-  { value: "146+", label: "Skills" },
-  { value: "91", label: "Workflows" },
+  { value: "73", label: "Plug-and-Play Modules" },
+  { value: "100+", label: "AI Specialists Working for You" },
+  { value: "146+", label: "Skills You Don't Have to Learn" },
+  { value: "91", label: "Automated Workflows" },
 ];
 
 export const categoryColors: Record<string, string> = {

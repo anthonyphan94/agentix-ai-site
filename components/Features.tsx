@@ -1,9 +1,9 @@
 const features = [
   {
     badge: "Selective Loading",
-    title: "Install only what you need",
+    title: "Stop paying for what you don\u2019t use",
     description:
-      "Each module is fully isolated. Installing python_development loads Python specialists, a scaffolding command, and Python skills. The other 72 modules stay completely dormant — no tokens wasted.",
+      "Each module is fully isolated. Installing python_development loads Python specialists, a scaffolding command, and Python skills. The other 72 modules stay completely dormant — no tokens wasted, no context bloat.",
     detail: "Average 3.4 components per module. Zero cross-dependencies.",
     visual: (
       <div className="bg-[#0d0d0d] border border-[#222] rounded-xl p-5 font-mono text-sm space-y-2">
@@ -17,9 +17,9 @@ const features = [
   },
   {
     badge: "Multi-Agent Orchestration",
-    title: "Coordinate specialists in parallel",
+    title: "A whole team, working while you sleep",
     description:
-      "Agent Teams spawns multiple specialists simultaneously — a security auditor, performance engineer, and architect all reviewing your code at once. No waiting for sequential reviews.",
+      "Agent Teams spawns multiple specialists simultaneously — a security auditor, performance engineer, and architect all reviewing your code at once. No waiting for sequential reviews. No hiring.",
     detail: "7 pre-built team configurations: review, debug, feature, fullstack, research, security, migration.",
     visual: (
       <div className="bg-[#0d0d0d] border border-[#222] rounded-xl p-5 font-mono text-sm space-y-2">
@@ -34,9 +34,9 @@ const features = [
   },
   {
     badge: "Progressive Skills",
-    title: "Knowledge that loads on demand",
+    title: "Expert knowledge without the expert price tag",
     description:
-      "Skills use a three-tier architecture: metadata is always present (minimal tokens), instructions load when the skill activates, resources load only when referenced. Deep expertise without constant overhead.",
+      "Skills use a three-tier architecture: metadata is always present (minimal tokens), instructions load when the skill activates, resources load only when referenced. Senior-level patterns available instantly — without months of learning.",
     detail: "146+ skills across 21 modules. Each skill is self-contained and independently updatable.",
     visual: (
       <div className="bg-[#0d0d0d] border border-[#222] rounded-xl p-5 font-mono text-xs space-y-3">
