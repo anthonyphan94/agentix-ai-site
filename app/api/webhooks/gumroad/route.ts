@@ -1,32 +1,34 @@
 import { NextRequest, NextResponse } from "next/server";
-import crypto from "crypto";
 
 export async function POST(req: NextRequest) {
-  const body = await req.text();
+  // Verify webhook secret via URL query parameter
+  const webhookSecret = req.nextUrl.searchParams.get("secret");
+  const expectedSecret = process.env.WEBHOOK_SECRET;
 
-  // Verify Gumroad signature
-  const signature = req.headers.get("x-gumroad-signature") ?? "";
-  const secret = process.env.GUMROAD_SECRET;
-
-  if (!secret) {
-    console.error("GUMROAD_SECRET not configured");
+  if (!expectedSecret) {
+    console.error("WEBHOOK_SECRET not configured");
     return NextResponse.json({ error: "Server misconfigured" }, { status: 500 });
   }
 
-  const expected = crypto
-    .createHmac("sha256", secret)
-    .update(body)
-    .digest("hex");
-
-  if (
-    signature.length !== expected.length ||
-    !crypto.timingSafeEqual(Buffer.from(signature), Buffer.from(expected))
-  ) {
-    return NextResponse.json({ error: "Invalid signature" }, { status: 401 });
+  if (webhookSecret !== expectedSecret) {
+    return NextResponse.json({ error: "Unauthorized" }, { status: 401 });
   }
 
   // Parse form-encoded body
+  const body = await req.text();
   const params = new URLSearchParams(body);
+
+  // Verify this is a real sale (not a refund/dispute/etc.)
+  const sellerID = params.get("seller_id");
+  const productID = params.get("product_id");
+  const refunded = params.get("refunded");
+
+  if (refunded === "true") {
+    console.log("Skipping refunded purchase");
+    return NextResponse.json({ success: true, skipped: "refunded" });
+  }
+
+  console.log(`Gumroad ping: seller=${sellerID} product=${productID}`);
 
   // Extract GitHub username from custom fields
   const githubUsername =
